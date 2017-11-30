@@ -1,4 +1,4 @@
-<p>
+<!--<p>
   portada works!
 </p>
 
@@ -6,4 +6,764 @@
 
 <p-editor [(ngModel)]="text" [style]="{'height':'320px'}"></p-editor>
 
-<button pButton type="button" (click)="onclick()" label="Click" class="ui-button-success"></button>
+<button pButton type="button" (click)="onclick()" label="Click" class="ui-button-success"></button>-->
+
+<body data-spy="scroll" data-offset="50" data-target=".navbar-default" class="slider-home">
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top no-transparent" id="slide-nav">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+        <a class="navbar-brand" href="index.html">Haswell</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Extra<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="bloglist.html">Blog List</a></li>
+              <li><a href="bloglist-sidebar.html">Blog List Sidebar</a></li>
+              <li><a href="post-centered.html">Post centered</a></li>
+              <li><a href="post-sample.html">Post with Sidebar</a></li>
+              <li><a href="404.html">404 Page</a></li>
+              <li><a href="comingsoon.html">Coming Soon</a></li>
+              <li><a href="shortcodes.html">Shortcodes</a></li>
+              <li class="has-dropdown">
+                <a href="#">Submenu Level<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Submenu item</a></li>
+                  <li><a href="#">Another item</a></li>
+                  <li><a href="#">Something item</a></li>
+                  <li><a href="#">Last menu item</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="clearfix"></div>
+
+  <div class="rev_slider_wrapper">
+    <div class="rev_slider" data-version="5.0">
+      <ul>
+        <li data-transition="slotfade-horizontal"><img src="assets/img/slider/bg-slide-2.jpg" alt="">
+          <div class="tp-caption" data-x="left" data-y="bottom" data-speed="700" data-start="1400" data-transform_in="o:0;s:700;" data-transform_out="o:0;s:700;">
+            <img src="assets/img/slider/slide-2-image-1.png" alt=""></div>
+          <div class="tp-caption big-text" data-x="450" data-y="200" data-speed="700" data-start="1800" data-transform_in="y:100;s:700;e:Expo.easeIn;"
+            data-transform_out="y:100;s:700;"> <span class="text-default-color">IT'S Haswell Time!</span></div>
+          <div class="tp-caption" data-x="450" data-y="235" data-speed="700" data-start="2600" data-transform_in="o:0;s:700;" data-transform_out="o:0;s:700;">
+            <div class="text-parallax" data-stellar-background-ratio="0.5" style="background-image:url(assets/images/backgrounds/text-1.jpg);">
+              <div class="text-parallax-content">Pictures come to life <br> in our portfolio</div>
+            </div>
+          </div>
+          <div class="tp-caption text" data-x="450" data-y="380" data-speed="700" data-start="3100" data-transform_in="x:100;s:700;"
+            data-transform_out="x:100;s:700;"> Aenean finibus euismod enim et tempus. Cras ut neque nibh. Vivamus <br> congue arcu dui, a porttitor libero semper
+            vestibulum. </div>
+          <div class="tp-caption" data-x="450" data-y="460" data-speed="700" data-start="3500" data-transform_in="y:100;s:700;" data-transform_out="y:100;s:700;">
+            <a class="btn btn-black btn-default" href="#">Read more<i class="fa fa-angle-right"></i> </a></div>
+        </li>
+        <li data-transition="slotfade-horizontal"><img src="assets/img/slider/bg-slide-1.jpg" alt="">
+          <div class="tp-caption" data-x="right" data-y="bottom" data-hoffset="160" data-voffset="-50" data-speed="700" data-start="1600"
+            data-transform_in="x:300;sX:0;sY:0;s:700;" data-transform_out="x:300;sX:0;sY:0;s:700;"> <img src="assets/img/slider/slide-1-image-1.png" alt=""></div>
+          <div class="tp-caption" data-x="right" data-y="bottom" data-hoffset="-70" data-voffset="-50" data-speed="700" data-start="1400"
+            data-transform_in="x:300;sX:0;sY:0;s:700;" data-transform_out="x:300;sX:0;sY:0;s:700;"> <img src="assets/img/slider/slide-1-image-2.png" alt=""></div>
+          <div class="tp-caption big-text" data-x="30" data-y="165" data-speed="700" data-start="2000" data-transform_in="y:100;s:700;e:Expo.easeIn;"
+            data-transform_out="x:-100;s:700;"> Choose Haswell</div>
+          <div class="tp-caption title" data-x="30" data-y="205" data-speed="700" data-start="2800" data-transform_in="x:-100;s:700;"
+            data-transform_out="x:-100;s:700;"> Take the <br> oportunity <br> in front of you</div>
+          <div class="tp-caption text" data-x="30" data-y="390" data-speed="700" data-start="3300" data-transform_in="y:-100;s:700;"
+            data-transform_out="y:-100;s:700;"> Aenean finibus euismod enim et tempus. Cras ut neque nibh. Vivamus con <br> gue arcu dui, a porttitor libero semper
+            vestibulum. Proin luctus accumsan <br> sapien, vel aliquet arcu.</div>
+          <div class="tp-caption text" data-x="30" data-y="505" data-speed="700" data-start="3700" data-transform_in="y:100;s:700;"
+            data-transform_out="y:100;s:700;"> <a class="btn btn-black btn-default" href="#">Read more<i class="fa fa-angle-right"></i> </a></div>
+        </li>
+        <li data-transition="slotfade-horizontal"><img src="assets/img/slider/bg-slide-3.jpg" alt="">
+          <div class="tp-caption" data-x="center" data-y="-30" data-speed="700" data-start="1400" data-transform_in="sX:0;sY:0;s:700;"
+            data-transform_out="sX:0;sY:0;s:700;"> <img src="assets/img/slider/slide-3-image-1.png" alt=""></div>
+          <div class="tp-caption big-text-rotate" data-x="480" data-y="center" data-voffset="-40" data-speed="700" data-start="2000"
+            data-transform_in="y:100;s:700;e:Expo.easeIn;" data-transform_out="y:100;s:700;"> IT'S Haswell Time!</div>
+          <div class="tp-caption big-title" data-x="600" data-y="center" data-voffset="-40" data-speed="700" data-start="2400" data-transform_in="o:0;x:-50;s:700;"
+            data-transform_out="o:0;x:-50;s:700;"> Simply, an <br> outstanding <br> design
+          </div>
+          <div class="tp-caption" data-x="600" data-y="450" data-speed="700" data-start="2800" data-transform_in="y:100;s:700;" data-transform_out="y:100;s:700;">
+            <a class="btn btn-black btn-default" href="#">Read more<i class="fa fa-angle-right"></i> </a></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Header -->
+
+
+  <!-- About -->
+  <div id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <header class="div-header">
+            <h3 class="div-title" data-text="About Us">We work everywhere</h3>
+            <p>Maecenas quis bibendum ex. Phasellus porttitor est ac sem porta vestibulum. Integer a felis sapien. Suspendisse
+              ultricies vitae sapien quis egestas. Mauris et iaculis orci, sit amet accumsan tortor. Sed quis ipsum nulla.
+              Morbi et metus sed velit fringilla ut nisi.</p>
+          </header>
+        </div>
+        <div class="col-md-12">
+          <div class="mockup" data-animation="fadeInUp" data-animation-delay="02">
+            <img src="assets/img/stationery.jpg" alt="mockup" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features -->
+  <div class="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="feature">
+            <i class="icon icon-basic-lightbulb"></i>
+            <h4 class="small-title centered">Bootstrap 3</h4>
+            <p>Compellingly implement functionalized bandwidth and reliable paradigms efficiently transform maintainable synergy</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature">
+            <i class="icon icon-basic-pencil-ruler"></i>
+            <h4 class="small-title centered">Responsive</h4>
+            <p>Compellingly implement functionalized bandwidth and reliable paradigms efficiently transform maintainable synergy</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature">
+            <i class="icon icon-basic-settings"></i>
+            <h4 class="small-title centered">Customizable</h4>
+            <p>Compellingly implement functionalized bandwidth and reliable paradigms efficiently transform maintainable synergy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quotes -->
+  <div class="quotes">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="quote-list">
+            <li>
+              <blockquote class="quote">
+                Simplicity is the ultimate sophistication.
+                <cite>Leonardo da Vinci</cite>
+              </blockquote>
+            </li>
+            <li>
+              <blockquote class="quote">
+                Style is a way to say who you are without having to speak.
+                <cite>Rachel Zoe</cite>
+              </blockquote>
+            </li>
+            <li>
+              <blockquote class="quote">
+                It´s very easy be different, but very difficult to be better.
+                <cite>Jonathan Ive</cite>
+              </blockquote>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio -->
+  <div id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <header class="div-header">
+            <h4 class="div-title" data-text="Portfolio">Check our flow</h4>
+            <p>Suspendisse ultricies vitae sapien quis egestas. Phasellus porttitor <br>est ac sem porta vestibulum. Integer
+              a felis sapien.</p>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <ul id="filter" class="filter">
+            <li><a data-filter="*" class="btn btn-default btn-sm" role="button">All</a></li>
+            <li><a data-filter=".webdesign" class="btn btn-default btn-sm" role="button">Webdesign</a></li>
+            <li><a data-filter=".illustration" class="btn btn-default btn-sm" role="button">Illustration</a></li>
+            <li><a data-filter=".photography" class="btn btn-default btn-sm" role="button">Photography</a></li>
+            <li><a data-filter=".branding" class="btn btn-default btn-sm" role="button">Branding</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="isotope">
+            <div class="grid-sizer"></div>
+            <div class="gutter-sizer"></div>
+            <div class="item webdesign" data-category="webdesign">
+              <figure class="item-figure">
+                <img src="assets/img/thumbs/placeholder4.jpg" class="img-responsive" alt="img">
+                <figcaption class="overlay">
+                  <p>Lorem Ipsum dolor ismet</p>
+                  <a href="project.html" class="ajax-popup-link"></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="item illustration" data-category="illustration">
+              <figure class="item-figure">
+                <img src="assets/img/thumbs/placeholder4e.jpg" class="img-responsive" alt="img">
+                <figcaption class="overlay">
+                  <p>Lorem Ipsum dolor ismet</p>
+                  <a href="project2.html" class="ajax-popup-link"></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="item photography" data-category="photography">
+              <figure class="item-figure">
+                <img src="assets/img/thumbs/placeholder4f.jpg" class="img-responsive" alt="img">
+                <figcaption class="overlay">
+                  <p>Lorem Ipsum dolor ismet</p>
+                  <a href="project.html" class="ajax-popup-link"></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="item branding" data-category="branding">
+              <figure class="item-figure">
+                <img src="assets/img/thumbs/placeholder4a.jpg" class="img-responsive" alt="img">
+                <figcaption class="overlay">
+                  <p>Lorem Ipsum dolor ismet</p>
+                  <a href="project2.html" class="ajax-popup-link"></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="item webdesign" data-category="webdesign">
+              <figure class="item-figure">
+                <img src="assets/img/thumbs/placeholder4b.jpg" class="img-responsive" alt="img">
+                <figcaption class="overlay">
+                  <p>Lorem Ipsum dolor ismet</p>
+                  <a href="project.html" class="ajax-popup-link"></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="item photography" data-category="posters">
+              <figure class="item-figure">
+                <img src="assets/img/thumbs/placeholder4c.jpg" class="img-responsive" alt="img">
+                <figcaption class="overlay">
+                  <p>Lorem Ipsum dolor ismet</p>
+                  <a href="project2.html" class="ajax-popup-link"></a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <a href="#" class="btn btn-default load-more" role="button">Load More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call To Action -->
+  <div class="call-to">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="action">
+            <h5>Have you big idea or interesant project?</h5>
+            <a href="#" class="btn btn-danger" role="button">Lets talk</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div id="services" class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <header class="div-header">
+            <h4 class="div-title" data-text="Services">What we do best</h4>
+            <p>Suspendisse ultricies vitae sapien quis egestas. Phasellus porttitor <br>est ac sem porta vestibulum. Integer
+              a felis sapien.</p>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <div class="service" data-animation="fadeInUp" data-animation-delay="01">
+            <i class="fa fa-television" aria-hidden="true"></i>
+            <h5>Web Design</h5>
+            <p>Phasellus libero consectetur ellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem ipsum
+              lacus.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service" data-animation="fadeInUp" data-animation-delay="01">
+            <i class="fa fa-signal" aria-hidden="true"></i>
+            <h5>Branding</h5>
+            <p>Phasellus libero consectetur ellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem ipsum
+              lacus.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service" data-animation="fadeInUp" data-animation-delay="01">
+            <i class="fa fa-camera" aria-hidden="true"></i>
+            <h5>Photography</h5>
+            <p>Phasellus libero consectetur ellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem ipsum
+              lacus.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service" data-animation="fadeInUp" data-animation-delay="01">
+            <i class="fa fa-cog" aria-hidden="true"></i>
+            <h5>Development</h5>
+            <p>Phasellus libero consectetur ellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem ipsum
+              lacus.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service" data-animation="zoomInUp" data-animation-delay="01">
+            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            <h5>Advertising</h5>
+            <p>Phasellus libero consectetur ellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem ipsum
+              lacus.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service" data-animation="zoomInUp" data-animation-delay="01">
+            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+            <h5>Marketing</h5>
+            <p>Phasellus libero consectetur ellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem ipsum
+              lacus.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service" data-animation="zoomInUp" data-animation-delay="01">
+            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+            <h5>Copywriting</h5>
+            <p>Phasellus libero consectetur ellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem ipsum
+              lacus.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service" data-animation="zoomInUp" data-animation-delay="01">
+            <i class="icon icon-basic-life-buoy"></i>
+            <h5>Support</h5>
+            <p>Phasellus libero consectetur ellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem ipsum
+              lacus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Counters -->
+  <div class="counters">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="numbers">
+            <span class="number" data-from="0" data-to="987" data-speed="5000" data-refresh-interval="50"></span>
+            <span class="number-info">Creative Ideas</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="numbers">
+            <span class="number" data-from="0" data-to="218" data-speed="5000" data-refresh-interval="50"></span>
+            <span class="number-info">Projects Designed</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="numbers">
+            <span class="number" data-from="0" data-to="1356" data-speed="5000" data-refresh-interval="50"></span>
+            <span class="number-info">Pizzas Eaten</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="numbers">
+            <span class="number" data-from="0" data-to="1856" data-speed="5000" data-refresh-interval="50"></span>
+            <span class="number-info">Coffee Drunk</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Team -->
+  <div id="team" class="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <header class="div-header">
+            <h4 class="div-title" data-text="Meet the Team">We are awesome</h4>
+            <p>Suspendisse ultricies vitae sapien quis egestas. Phasellus porttitor <br>est ac sem porta vestibulum. Integer
+              a felis sapien.</p>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <figure class="team-figure">
+            <img src="assets/img/team/team9.jpg" class="img-responsive" alt="img">
+            <figcaption class="team-overlay">
+              <ul class="social-list">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-behance"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+          <h5 class="member-name" data-text="Creative Director">Kristin Stevens</h5>
+          <p class="text-center">Maecenas quis bibendum ex. Phasellus porttitor est ac sem porta vestibulum.</p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <figure class="team-figure">
+            <img src="assets/img/team/team5.jpg" class="img-responsive" alt="img">
+            <figcaption class="team-overlay">
+              <ul class="social-list">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-behance"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+          <h5 class="member-name" data-text="Lead Developer">Robert Anderson</h5>
+          <p class="text-center">Maecenas quis bibendum ex. Phasellus porttitor est ac sem porta vestibulum.</p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <figure class="team-figure">
+            <img src="assets/img/team/team3.jpg" class="img-responsive" alt="img">
+            <figcaption class="team-overlay">
+              <ul class="social-list">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-behance"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+          <h5 class="member-name" data-text="Marketing Manager">Patricia Graham</h5>
+          <p class="text-center">Maecenas quis bibendum ex. Phasellus porttitor est ac sem porta vestibulum.</p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <figure class="team-figure">
+            <img src="assets/img/team/team9.jpg" class="img-responsive" alt="img">
+            <figcaption class="team-overlay">
+              <ul class="social-list">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-behance"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+          <h5 class="member-name" data-text="Creative Designer">Jack Williams</h5>
+          <p class="text-center">Maecenas quis bibendum ex. Phasellus porttitor est ac sem porta vestibulum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <div class="chart" data-percent="89">
+            <!--data-bar-color="#ffb400"-->
+            <span class="percent" data-from="0" data-to="89"></span>
+          </div>
+          <h5>HTML5</h5>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="chart" data-percent="85">
+            <span class="percent" data-from="0" data-to="85"></span>
+          </div>
+          <h5>CSS3</h5>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="chart" data-percent="75">
+            <span class="percent" data-from="0" data-to="75"></span>
+          </div>
+          <h5>jQuery</h5>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="chart" data-percent="80">
+            <span class="percent" data-from="0" data-to="80"></span>
+          </div>
+          <h5>Adobe</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blog -->
+  <div id="blog" class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <header class="div-header">
+            <h4 class="div-title" data-text="Blog">Our stories</h4>
+            <p>Suspendisse ultricies vitae sapien quis egestas. Phasellus porttitor <br>est ac sem porta vestibulum. Integer
+              a felis sapien.</p>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="post preview gridview">
+            <div class="post-media">
+              <ul class="slider">
+                <li><a href="#"><img src="assets/img/thumbs/placeholder3.jpg" alt="..."></a></li>
+                <li><a href="#"><img src="assets/img/thumbs/placeholder2.jpg" alt="..."></a></li>
+                <li><a href="#"><img src="assets/img/thumbs/placeholder3.jpg" alt="..."></a></li>
+              </ul>
+            </div>
+            <div class="caption">
+              <ul class="meta-list">
+                <li><span class="meta">February 26, 2016</span></li>
+                <li><span class="meta">Photography</span></li>
+              </ul>
+              <h5 class="post-title"><a href="post-sample.html">Mountains adventure</a></h5>
+              <p>Phasellus a nisl libero. Pellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem lacus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="post preview gridview">
+            <div class="post-media">
+              <a href="#"><img src="assets/img/thumbs/placeholder2.jpg" alt="..."></a>
+            </div>
+            <div class="caption">
+              <ul class="meta-list">
+                <li><span class="meta">February 12, 2016</span></li>
+                <li><span class="meta">Inspiration</span></li>
+              </ul>
+              <h5 class="post-title"><a href="post-sample.html">5 Morning ideas</a></h5>
+              <p>Phasellus a nisl libero. Pellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem lacus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="post preview gridview">
+            <div class="post-media">
+              <a href="#"><img src="assets/img/thumbs/placeholder3.jpg" alt="..."></a>
+            </div>
+            <div class="caption">
+              <ul class="meta-list">
+                <li><span class="meta">january 23, 2016</span></li>
+                <li><span class="meta">Web Design</span></li>
+              </ul>
+              <h5 class="post-title"><a href="post-sample.html">Active Dashboard</a></h5>
+              <p>Phasellus a nisl libero. Pellentesque palacerat viverra felis a maximus. Nulla etat porttitor lorem lacus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tweets -->
+  <div class="tweets">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="twitter-feed"></div>
+          <!-- Twitter Feed -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pricing -->
+  <div class="pricing" id="pricing-table">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="plan">
+            <ul data-animation-delay="02" data-animation="flipInY" class="pricing-table list-unstyled animated flipInY delay-02">
+              <li class="title">Enterprise
+                <div class="price">$59</div>
+              </li>
+              <li><a class="btn btn-default " href="#">Sign up</a> </li>
+              <li><b>10GB</b> Disk Space</li>
+              <li><b>100GB</b> Monthly Bandwidth</li>
+              <li><b>20</b> Email Accounts</li>
+              <li><b>Unlimited</b> subdomains</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="most-popular" class="plan">
+            <ul data-animation-delay="02" data-animation="flipInY" class="pricing-table list-unstyled animated flipInY delay-02 highlighted">
+              <li class=" title">Professional
+                <div class="price">$29</div>
+              </li>
+              <li><a class="btn btn-default" href="#">Sign up</a></li>
+              <li><b>5GB</b> Disk Space</li>
+              <li><b>50GB</b> Monthly Bandwidth</li>
+              <li><b>10</b> Email Accounts</li>
+              <li><b>Unlimited</b> subdomains</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="plan">
+            <ul data-animation-delay="02" data-animation="flipInY" class="pricing-table list-unstyled animated flipInY delay-02">
+              <li class="title">Enterprise
+                <div class="price">$59</div>
+              </li>
+              <li><a class="btn btn-default" href="#">Sign up</a> </li>
+              <li><b>10GB</b> Disk Space</li>
+              <li><b>100GB</b> Monthly Bandwidth</li>
+              <li><b>20</b> Email Accounts</li>
+              <li><b>Unlimited</b> subdomains</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Clients -->
+  <div class="clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <ul class="brands">
+            <li><img src="assets/img/brands/vintlogo1.png" alt="client" /></li>
+            <li><img src="assets/img/brands/vintlogo2.png" alt="client" /></li>
+            <li><img src="assets/img/brands/vintlogo3.png" alt="client" /></li>
+            <li><img src="assets/img/brands/vintlogo4.png" alt="client" /></li>
+            <li><img src="assets/img/brands/vintlogo5.png" alt="client" /></li>
+            <li><img src="assets/img/brands/vintlogo3.png" alt="client" /></li>
+            <li><img src="assets/img/brands/vintlogo4.png" alt="client" /></li>
+            <li><img src="assets/img/brands/vintlogo5.png" alt="client" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div id="contact" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <header class="div-header">
+            <h4 class="div-title" data-text="Contact">Get in touch</h4>
+            <p>Suspendisse ultricies vitae sapien quis egestas. Phasellus porttitor <br>est ac sem porta vestibulum. Integer
+              a felis sapien.</p>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <div class="form-detached">
+            <form action="php/contact-form.php" id="contact-form">
+              <div class="alert alert-success hidden" id="contact-alert-success">
+                <strong>Success!</strong> Thank you for your message. Reply will be in a while!
+              </div>
+              <div class="alert alert-danger hidden" id="contact-alert-error">
+                <strong>Error!</strong> Something went wrong sending your message.
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="sr-only" for="name"></label>
+                  <input type="text" class="form-control" value="" placeholder="Name" data-msg-required="Please enter your name." name="name"
+                    id="name">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="sr-only" for="email"></label>
+                  <input type="email" value="" placeholder="E-mail" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address."
+                    class="form-control" name="email" id="email">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="sr-only" for="message"></label>
+                  <textarea placeholder="Enter your message..." data-msg-required="Please enter your message." rows="6" class="form-control"
+                    name="message" id="message"></textarea>
+                </div>
+                <input type="submit" value="Send Message" class="btn btn-default alignleft" data-loading-text="Loading...">
+              </div>
+
+            </form>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <address class="address">
+            <i class="icon icon-basic-mail"></i>
+            <a href="mailto:#">info@themail.com</a>
+          </address>
+          <address class="address">
+            <i class="icon icon-basic-geolocalize-01"></i>
+            <strong>Haswell Creative, Inc.</strong><br> 795 Folsom Ave, Suite 600<br> San Francisco, CA 94107
+          </address>
+          <address class="address">
+            <i class="icon icon-basic-smartphone"></i> (123) 456-7890
+          </address>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gmap -->
+  <div class="map">
+    <a class="show-map">
+      <div class="helper"><i class="icon icon-basic-geolocalize-01"></i><span>Show Map</span></div>
+    </a>
+    <div id="my-map"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container clearfix">
+      <div class="col-lg-12">
+        <div class="alignleft small">&copy; 2016, Haswell. All Rights Reserved.</div>
+        <div class="alignright small">Connect with us:&nbsp;&nbsp;&nbsp;
+          <ul class="social-list alignright clearfix">
+            <li> <a href="#"><i class="fa fa-google-plus"></i></a> </li>
+            <li> <a href="#"><i class="fa fa-twitter"></i></a> </li>
+            <li> <a href="#"><i class="fa fa-linkedin"></i></a> </li>
+            <li> <a href="#"><i class="fa fa-facebook"></i></a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
