@@ -1,0 +1,19 @@
+{
+  "name": "monitoreo",
+  "version": "1.0.0",
+  "description": "servicio de monitoreo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xaipo@ombugames",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.5",
+    "node-restful": "^0.2.6"
+  }
+}
