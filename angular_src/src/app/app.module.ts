@@ -6,7 +6,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { PortadaComponent } from './components/portada/portada.component';
 
-import { EditorModule, ButtonModule } from 'primeng/primeng';
+import { EditorModule, ButtonModule,GalleriaModule } from 'primeng/primeng';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,8 @@ import { EditorModule, ButtonModule } from 'primeng/primeng';
     FormsModule,
     ReactiveFormsModule,
     ButtonModule,
-    EditorModule
+    EditorModule,
+    GalleriaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
