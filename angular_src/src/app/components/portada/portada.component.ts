@@ -9,6 +9,8 @@ export class PortadaComponent implements OnInit {
 
   text: string;
   images: any[];
+  todayDate: any;
+  dt: Date = new Date();
 
   constructor() { }
 
@@ -26,10 +28,20 @@ export class PortadaComponent implements OnInit {
     this.images.push({source:'assets/images/galleria10.jpg', alt:'Description for Image 10', title:'Title 10'});
     this.images.push({source:'assets/images/galleria11.jpg', alt:'Description for Image 11', title:'Title 11'});
     this.images.push({source:'assets/images/galleria12.jpg', alt:'Description for Image 12', title:'Title 12'});
+
+    var initial = new Date(this.getDate()).toLocaleDateString().split("/");
+    console.log(this.getDate())
+    console.log(initial)
+    this.todayDate = [initial[0], initial[1], initial[2]].join('/');
+    console.log(this.todayDate);
   }
 
   onclick() {
     console.log(this.text)
+  }
+
+  public getDate(): number {
+    return this.dt && this.dt.getTime() || new Date().getTime();
   }
 
 }
