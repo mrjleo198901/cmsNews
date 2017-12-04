@@ -35,7 +35,7 @@
   .slick-list:focus {
     outline: none; }
   .slick-loading .slick-list {
-    background: white image-url("ajax-loader.gif", false, false) center center no-repeat; }
+    background: white image-url("ajax-loader.html", false, false) center center no-repeat; }
   .slick-list.dragging {
     cursor: pointer;
     cursor: hand; }
@@ -85,8 +85,8 @@
 /* Icons */
 @font-face {
   font-family: "slick";
-  src: font-url("slick.eot");
-  src: font-url("slick.eot?#iefix") format("embedded-opentype"), font-url("slick.woff") format("woff"), font-url("slick.ttf") format("truetype"), font-url("slick.svg#slick") format("svg");
+  src: font-url("slick.html");
+  src: font-url("slickd41d.html?#iefix") format("embedded-opentype"), font-url("slick-2.html") format("woff"), font-url("slick-3.html") format("truetype"), font-url("slick-4.html#slick") format("svg");
   font-weight: normal;
   font-style: normal; }
 
