@@ -7,12 +7,13 @@ import { RouterModule, Routes } from '@angular/router'
 import { AppComponent } from './app.component';
 import { PortadaComponent } from './components/portada/portada.component';
 
-import { EditorModule, ButtonModule,GalleriaModule } from 'primeng/primeng';
+import { EditorModule, ButtonModule, GalleriaModule } from 'primeng/primeng';
 import { UploadComponent } from './components/upload/upload.component';
 
 /*Navigation*/
 const appRoutes: Routes = [
-  { path: 'upload', component: UploadComponent }
+  { path: 'upload', component: UploadComponent },
+  { path: '', component: PortadaComponent }
 ]
 
 @NgModule({
@@ -31,7 +32,7 @@ const appRoutes: Routes = [
     GalleriaModule,
     RouterModule.forRoot(appRoutes),
   ],
-  providers: [{provide: LOCALE_ID, useValue: "es-ec"}],
+  providers: [{ provide: LOCALE_ID, useValue: "es-ec" }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
