@@ -13,8 +13,8 @@ var cors = require('cors');
 
 // <editor-fold defaultstate="collapsed" desc="MongoDb">
 
-mongoose.connect('http://13.92.179.84:3004/api/noticia', function(error){
-//mongoose.connect('mongodb://localhost/salud_ocupacional', function (error) {
+//mongoose.connect('http://127.0.0.1:3004/api/noticia', function(error){
+mongoose.connect('mongodb://localhost/News', function (error) {
     if(error){
         throw error;
     }else{

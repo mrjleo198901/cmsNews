@@ -26,14 +26,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <p style="text-align: center; margin-top: -20px">Jueves, 30 de Noviembre de 2017</p>
-        <a class="navbar-brand" href="index.html"><img src="assets/images/espectador_logo.svg" width="100%" style="margin-top: -25px;"></a>
+
+      </div>
+      <p style="text-align: center; margin-top: 0px">Lunes, 4 de Diciembre de 2017</p>
+      <div class=" center-block">
+        <a class="navbar-brand" href="index.html" style="text-align: center!important;"><img src="assets/img/logo/logo.svg" width="40%"  height="40%" style="margin-top: -10px; margin-left: 30%"></a>
       </div>
 
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-left: 10px; float: none">
+        <ul class="nav navbar-nav navbar-left">
           <br>
-          <li><a href="#home">Noticias</a></li>
+          <li><a href="#first">Primera Plana</a></li>
           <li><a href="#about">Opinión</a></li>
           <li><a href="#portfolio">Economía</a></li>
           <li><a href="#services">Deportes</a></li>
@@ -41,7 +44,7 @@
           <li><a href="#team">Nuestro Equipo</a></li>
           <li><a href="#contact">Contactos</a></li>
           <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
-            <a [routerLink]="['/upload']">Administrar</a></li>
+            <a [routerLink]="['/upload']">Login</a></li>
           <!--<li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Extra<span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
@@ -67,7 +70,8 @@
       </div>
     </div>
   </nav>
-  <div class="clearfix"></div>
+
+  <div class="clearfix"  ></div>
 
   <div class="rev_slider_wrapper">
     <div class="rev_slider" data-version="5.0">
@@ -142,7 +146,7 @@
   </div>
 
   <!-- Features -->
-  <div class="features">
+  <div class="features" id="portfolio" class="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -171,7 +175,7 @@
   </div>
 
   <!-- Quotes -->
-  <div class="quotes">
+  <div class="quotes" >
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -201,7 +205,7 @@
   </div>
 
   <!-- Portfolio -->
-  <div id="portfolio" class="portfolio">
+  <div id="services" class="services">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -304,8 +308,8 @@
   </div>
 
   <!-- Services -->
-  <div id="services" class="services">
-    <div class="container">
+  <div >
+    <div class="container" id="blog" class="blog">
       <div class="row">
         <div class="col-md-12">
           <header class="div-header">
@@ -393,7 +397,7 @@
   </div>
 
   <!-- Counters -->
-  <div class="counters">
+  <div class="counters" id="team" class="team">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -425,7 +429,7 @@
   </div>
 
   <!-- Team -->
-  <div id="team" class="team">
+  <div >
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -535,7 +539,7 @@
   </div>
 
   <!-- Blog -->
-  <div id="blog" class="blog">
+  <div >
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -601,19 +605,19 @@
   </div>
 
   <!-- Tweets -->
-  <div class="tweets">
+<!--  <div class="tweets">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
           <div class="twitter-feed"></div>
-          <!-- Twitter Feed -->
+          &lt;!&ndash; Twitter Feed &ndash;&gt;
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
 
   <!-- Pricing -->
-  <div class="pricing" id="pricing-table">
+  <!--<div class="pricing" id="pricing-table">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -661,24 +665,34 @@
       </div>
     </div>
   </div>
-
+-->
   <!-- Clients -->
   <div class="clients">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-          <ul class="brands">
+        <div class="col-md-3 ">
+
             <li><img src="assets/img/brands/vintlogo1.png" alt="client" /></li>
             <li><img src="assets/img/brands/vintlogo2.png" alt="client" /></li>
-            <li><img src="assets/img/brands/vintlogo3.png" alt="client" /></li>
-            <li><img src="assets/img/brands/vintlogo4.png" alt="client" /></li>
-            <li><img src="assets/img/brands/vintlogo5.png" alt="client" /></li>
-            <li><img src="assets/img/brands/vintlogo3.png" alt="client" /></li>
-            <li><img src="assets/img/brands/vintlogo4.png" alt="client" /></li>
-            <li><img src="assets/img/brands/vintlogo5.png" alt="client" /></li>
-          </ul>
+
+
+
+
+        </div>
+        <div class="col-md-3 ">
+          <li><img src="assets/img/brands/vintlogo3.png" alt="client" /></li>
+          <li><img src="assets/img/brands/vintlogo4.png" alt="client" /></li>
+        </div>
+        <div class="col-md-3 ">
+          <li><img src="assets/img/brands/vintlogo5.png" alt="client" /></li>
+          <li><img src="assets/img/brands/vintlogo3.png" alt="client" /></li>
+        </div>
+        <div class="col-md-3 ">
+          <li><img src="assets/img/brands/vintlogo4.png" alt="client" /></li>
+          <li><img src="assets/img/brands/vintlogo5.png" alt="client" /></li>
         </div>
       </div>
+
     </div>
   </div>
 
